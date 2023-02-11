@@ -1,0 +1,45 @@
+highlighter: rouge
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-options
+    css_class: 'highlight'
+  math_engine: mathjax
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+
+paginate: 5
+paginate_path: "page:num"
+layout: post
+permalink: /:categories/:title
+excerpt_separator: "[-----]"
+
+url: fatihidiz.github.io # Required: replace this with your domain
+name: fatih idiz # Required: will be displayed on every page's header
+title: Website of Fatih İdiz # Required: site's default title
+shout: # Required: **TWO** lines, will be displayed on page's header.
+  - Under Construction
+description: " " # Required
+
+disqus:
+  comments: true # Global toggle on/off disqus comment
+  shortname: fatihidiz-github-io # Required if you use disqus. Repalce with your disqus shortname here
+
+google_analytics:
+  id: "G-35QT9DQRZH" # Required if you use google analytics. Replace with your tracking id here
+
+collections: # Define post series here
+  book_review:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "post"
