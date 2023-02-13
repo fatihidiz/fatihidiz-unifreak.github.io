@@ -25,5 +25,6 @@ contact:
   
 social:
   - {name: "GitHub", icon-class: "fa fa-github-square", text: "https://github.com/fatihidiz", link: "https://github.com/fatihidiz"}
+  - {name: "Researchgate", icon-class: "fa fa-researchgate", text: "https://www.researchgate.net/profile/Fatih_Idiz", link: "https://www.researchgate.net/profile/Fatih_Idiz"}
   # - {name: "StackOverflow", icon-class: "fa fa-stack-overflow", text: "stack-overflow", link: "https://stackoverflow.com/users/3776039/unifreak"}
   # - {name: "QQ", icon-class: "fa fa-qq", text: "744910240", link: "https://user.qzone.qq.com/744910240"}
