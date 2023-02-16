@@ -35,7 +35,7 @@ google_analytics:
   id: "G-35QT9DQRZH" # Required if you use google analytics. Replace with your tracking id here
 
 collections: # Define post series here
-  book_review:
+  publications:
     output: true
 
 defaults:
